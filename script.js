@@ -6,7 +6,7 @@ const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
-const MAX_IMAGES = 5;
+const MAX_IMAGES = 10;
 
 let play = true;
 let noCount = 0;
@@ -51,6 +51,7 @@ function generateMessage(noCount) {
     "You're breaking my heart",
     "Are Really Tap That button Again?",
     "I'm gonna cry...",
+    "I'm crying rn...",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
