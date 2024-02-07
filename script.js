@@ -45,8 +45,11 @@ function generateMessage(noCount) {
     "No",
     "Are you sure?",
     "Pookie please",
+    "please Pookie",
+    "Please Don't do this",
     "Don't do this to me :(",
     "You're breaking my heart",
+    "Are Really Tap That button Again?",
     "I'm gonna cry...",
   ];
 
@@ -60,4 +63,5 @@ function changeImage(image) {
 
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
-}
+  }
+  
